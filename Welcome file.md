@@ -59,7 +59,7 @@ npm install n8n@latest --save
         N8N_HOST<span class="token punctuation">:</span> <span class="token string">'127.0.0.1'</span><span class="token punctuation">,</span>
         N8N_PORT<span class="token punctuation">:</span> <span class="token number">5678</span><span class="token punctuation">,</span>
         N8N_PATH<span class="token punctuation">:</span> <span class="token string">'/n8n/'</span><span class="token punctuation">,</span> <span class="token comment">//path</span>
-        N8N_EDITOR_BASE_URL<span class="token punctuation">:</span> <span class="token string">'https://hoang.io.vn/n8n/'</span><span class="token punctuation">,</span>
+        N8N_EDITOR_BASE_URL<span class="token punctuation">:</span> <span class="token string">'https://domain.chay.n8n/n8n/'</span><span class="token punctuation">,</span>
         N8N_PUSH_BACKEND<span class="token punctuation">:</span> <span class="token string">'sse'</span> <span class="token comment">// loại push BE từ FE, có thể là ws</span>
       <span class="token punctuation">}</span>
     <span class="token punctuation">}</span>
