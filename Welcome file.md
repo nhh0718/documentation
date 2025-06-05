@@ -53,7 +53,7 @@ npm install n8n@latest --save
         DB_TYPE<span class="token punctuation">:</span> <span class="token string">'sqlite'</span><span class="token punctuation">,</span> <span class="token comment">// chạy với sqlite</span>
         N8N_RELEASE_TYPE <span class="token punctuation">:</span> <span class="token string">'stable'</span><span class="token punctuation">,</span> <span class="token comment">// stable thì logo đỏ và ko có chữ Dev</span>
         N8N_BASIC_AUTH_ACTIVE<span class="token punctuation">:</span> <span class="token string">"true"</span><span class="token punctuation">,</span> 
-        WEBHOOK_URL<span class="token punctuation">:</span> <span class="token string">"https://hoang.io.vn/n8n"</span><span class="token punctuation">,</span>
+        WEBHOOK_URL<span class="token punctuation">:</span> <span class="token string">"https://domain.chay.n8n/n8n"</span><span class="token punctuation">,</span>
         N8N_DIAGNOSTICS_ENABLED<span class="token punctuation">:</span> <span class="token string">"false"</span><span class="token punctuation">,</span>
         N8N_SKIP_WEBHOOK_DEREGISTRATION_SHUTDOWN<span class="token punctuation">:</span> <span class="token string">"true"</span><span class="token punctuation">,</span>
         N8N_HOST<span class="token punctuation">:</span> <span class="token string">'127.0.0.1'</span><span class="token punctuation">,</span>
