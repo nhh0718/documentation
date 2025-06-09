@@ -31,7 +31,7 @@ pageviews:
 
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
-  provider: 'giscus'
+  provider: giscus
   # Giscus options › https://giscus.app
   giscus:
     repo: 'nhh0718/comment'
@@ -43,3 +43,4 @@ comments:
     input_position: 'bottom'
     lang: 'vi'
     reactions_enabled: '1'
+    theme: "dark_dimmed"
