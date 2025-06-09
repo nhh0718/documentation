@@ -22,25 +22,34 @@ social:
 
 avatar: https://lh3.googleusercontent.com/a/ACg8ocKJNuXz0PUktDNYhtVdP_bq5-ZEdWMTWyYeZTXp-LPGEfcp-OiV=s360-c-no
 # Web Analytics Settings
-analytics:
-  goatcounter:
-    id: htn
+# analytics:
+#   goatcounter:
+#     id: htn
 # Page views settings
-pageviews:
-  provider: "goatcounter"
+# pageviews:
+#   provider: "goatcounter"
 
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
   provider: giscus
   # Giscus options › https://giscus.app
   giscus:
-    repo: 'nhh0718/comment'
-    repo_id: 'R_kgDOO4gb6Q'
-    category: 'General'
-    category_id: 'DIC_kwDOO4gb6c4CrOgu'
-    mapping: 'pathname'
-    strict: '0'
-    input_position: 'bottom'
-    lang: 'vi'
-    reactions_enabled: '1'
+    repo: "nhh0718/comment"
+    repo_id: "R_kgDOO4gb6Q"
+    category: "General"
+    category_id: "DIC_kwDOO4gb6c4CrOgu"
+    mapping: "pathname"
+    strict: "0"
+    input_position: "bottom"
+    lang: "vi"
+    reactions_enabled: "1"
     theme: "dark_dimmed"
+
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/
