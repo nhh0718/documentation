@@ -4,11 +4,9 @@
 
 - type: github
   icon: "fab fa-github"
-  name: "nhh0718"
 
 - type: email
   icon: "fas fa-envelope"
-  email: "hoangnh0718@gmail.com"
 
 - type: facebook
   icon: "fab fa-facebook"
