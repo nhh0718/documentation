@@ -2,6 +2,7 @@
 layout: post
 title: Hướng dẫn cài n8n trên cpanel với cli
 categories: [Tutorial, cPanel]
+date: 2025-06-09 14:35:00 +0700
 tags: [n8n, cli]
 author: hoang
 ---

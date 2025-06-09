@@ -3,6 +3,7 @@ layout: post
 title: Hướng dẫn cài n8n trên cpanel với pm2
 categories: [Tutorial, cPanel]
 tags: [n8n, pm2]
+date: 2025-06-05 11:35:00 +0700
 author: hoang
 ---
 
