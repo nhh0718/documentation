@@ -5,6 +5,7 @@ categories: [Tutorial, cPanel]
 date: 2025-06-09 14:35:00 +0700
 tags: [n8n, cli]
 author: hoang
+comments: true 
 ---
 
 <!-- @format -->
