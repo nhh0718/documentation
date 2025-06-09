@@ -30,7 +30,7 @@ cloudlinux-selector create --json --interpreter nodejs --version <node-version> 
 ## 2. kích hoạt môi trường node
 
 ```bash
-source /home/`username`/nodevenv/`app-root`/`node-version`/bin/activate && cd /home/`username`/`app-root`
+source /home/<username>/nodevenv/<app-root>/<node-version>/bin/activate && cd /home/<username>/<app-root>
 ```
 
 ## 3. cài n8n qua npm
@@ -43,13 +43,13 @@ npm install n8n
 ## 4. cài đặt startup file
 
 ```bash
-cloudlinux-selector set --json --interpreter nodejs --domain `domain` --app-root `app-root` --startup-file node_modules/n8n/bin/n8n --skip-web-check
+cloudlinux-selector set --json --interpreter nodejs --domain <domain> --app-root <app-root> --startup-file node_modules/n8n/bin/n8n --skip-web-check
 ```
 
 ## 5. restart app
 
 ```bash
-cloudlinux-selector restart --json --interpreter nodejs --app-root `app-root`
+cloudlinux-selector restart --json --interpreter nodejs --app-root <app-root>
 ```
 
 # Gỡ cài đặt n8n và xóa app
@@ -57,7 +57,7 @@ cloudlinux-selector restart --json --interpreter nodejs --app-root `app-root`
 ## 1. stop app
 
 ```bash
-cloudlinux-selector stop --json --interpreter nodejs --app-root `app-root`
+cloudlinux-selector stop --json --interpreter nodejs --app-root <app-root>
 ```
 
 ## 2. sao lưu phần database cơ bản (sqlite)
@@ -69,7 +69,7 @@ cp -r ~/.n8n ~/.n8n_backup_$(date +%Y%m%d\_%H%M%S)
 ## 3. xóa app
 
 ```bash
-cloudlinux-selector destroy --json --interpreter nodejs --app-root `app-root`
+cloudlinux-selector destroy --json --interpreter nodejs --app-root <app-root>
 ```
 
 ## 4. Xóa thư mục cài đặt và thư mục db.
