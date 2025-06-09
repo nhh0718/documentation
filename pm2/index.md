@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: post
 title: Hướng dẫn cài n8n trên cpanel với pm2
 categories: [Tutorial, cPanel]
 tags: [n8n, pm2]
+author: hoang
 ---
 
 <!-- @format -->
