@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Hướng dẫn cài n8n trên cpanel với pm2
 ---
 

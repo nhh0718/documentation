@@ -1,7 +1,7 @@
 ---
+layout: default
 title: Trang chủ
 ---
-
 <!-- @format -->
 
 # Chào mừng đến trang web tài liệu
