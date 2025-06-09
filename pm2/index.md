@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Hướng dẫn cài n8n trên cpanel với pm2
+categories: [Tutorial, cPanel]
+tags: [n8n, pm2]
 ---
 
 <!-- @format -->
@@ -92,20 +94,20 @@ module.exports = {
       name: "n8n",
       script: "./node_modules/n8n/bin/n8n",
       env: {
-        DB_TYPE: 'sqlite', // chạy với sqlite
-        N8N_RELEASE_TYPE : 'stable', // stable thì logo đỏ và ko có chữ Dev
+        DB_TYPE: "sqlite", // chạy với sqlite
+        N8N_RELEASE_TYPE: "stable", // stable thì logo đỏ và ko có chữ Dev
         N8N_BASIC_AUTH_ACTIVE: "true",
         WEBHOOK_URL: "https://hoang.io.vn/n8n",
         N8N_DIAGNOSTICS_ENABLED: "false",
         N8N_SKIP_WEBHOOK_DEREGISTRATION_SHUTDOWN: "true",
-        N8N_HOST: '127.0.0.1',
+        N8N_HOST: "127.0.0.1",
         N8N_PORT: 5678,
-        N8N_PATH: '/n8n/', //path
-        N8N_EDITOR_BASE_URL: 'https://hoang.io.vn/n8n/',
-        N8N_PUSH_BACKEND: 'sse' // loại push BE từ FE, có thể là ws
-      }
-    }
-  ]
+        N8N_PATH: "/n8n/", //path
+        N8N_EDITOR_BASE_URL: "https://hoang.io.vn/n8n/",
+        N8N_PUSH_BACKEND: "sse", // loại push BE từ FE, có thể là ws
+      },
+    },
+  ],
 };
 ```
 

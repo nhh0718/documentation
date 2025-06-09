@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Hướng dẫn cài n8n trên cpanel với cli
+categories: [Tutorial, cPanel]
+tags: [n8n, cli]
 ---
 
 <!-- @format -->
