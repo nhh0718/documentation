@@ -85,7 +85,7 @@ nano ecosystem.config.js
 
 ### Dán nội dung sau vào
 
-```json
+```js
 module.exports = {
   apps: [
     {
