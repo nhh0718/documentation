@@ -1,12 +1,14 @@
+# @format
+
 #  The contact options.
 
 - type: github
   icon: "fab fa-github"
-  url: "https://github.com/nhh0718"
+  username: "nhh0718"
 
 - type: email
   icon: "fas fa-envelope"
-  url: "mailto:hoangnh0718@gmail.com"
+  address: "hoangnh0718@gmail.com"
 
 - type: facebook
   icon: "fab fa-facebook"
