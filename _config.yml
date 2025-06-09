@@ -44,12 +44,17 @@ comments:
     lang: "vi"
     reactions_enabled: "1"
     theme: "dark_dimmed"
-
 jekyll-archives:
-  enabled: [categories, tags]
+  enabled: all
   layouts:
-    category: categories
-    tag: tags
+    year: archive/year
+    month: archive/month
+    day: archive/day
+    tag: archive/tag
+    category: archive/category
   permalinks:
-    tag: /tags/:name/
-    category: /categories/:name/
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tags/:name/'
+    category: '/category/:name/'
