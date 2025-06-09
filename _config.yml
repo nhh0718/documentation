@@ -6,5 +6,4 @@ include:
   - "**/*.md"
 
 title: Documentation
-baseurl: "/documentation" 
-url: "https://nhh0718.github.io" 
+baseurl: "/documentation"
