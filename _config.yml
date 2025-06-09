@@ -1,0 +1,6 @@
+# @format
+
+theme: jekyll-theme-minimal
+include:
+  - "*.md"
+  - "**/*.md"
