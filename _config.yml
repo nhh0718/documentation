@@ -48,8 +48,8 @@ comments:
 jekyll-archives:
   enabled: [categories, tags]
   layouts:
-    category: category
-    tag: tag
+    category: categories
+    tag: tags
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
