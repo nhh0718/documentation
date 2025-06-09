@@ -4,3 +4,9 @@ theme: jekyll-theme-minimal
 include:
   - "*.md"
   - "**/*.md"
+plugins:
+  - jekyll-theme-minimal
+
+title: Documentation
+baseurl: "/documentation" 
+url: "https://nhh0718.github.io" 
