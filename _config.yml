@@ -9,6 +9,6 @@ include:
 title: Documentation
 baseurl: ""
 
-avatar:
-  enabled: true
-  url: https://lh3.googleusercontent.com/a/ACg8ocKJNuXz0PUktDNYhtVdP_bq5-ZEdWMTWyYeZTXp-LPGEfcp-OiV=s360-c-no
+author:
+  name: Hoang
+  avatar: https://lh3.googleusercontent.com/a/ACg8ocKJNuXz0PUktDNYhtVdP_bq5-ZEdWMTWyYeZTXp-LPGEfcp-OiV=s360-c-no
