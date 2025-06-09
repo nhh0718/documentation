@@ -1,0 +1,9 @@
+- title: Trang chủ
+  url: /
+  icon: fas fa-home
+- title: N8n cpanel PM2
+  url: /pm2
+  icon: fas fa-user
+- title: N8n cpanel CLI
+  url: /cli
+  icon: fas fa-archive
