@@ -6,4 +6,4 @@ include:
   - "**/*.md"
 
 title: Documentation
-baseurl: "/documentation"
+baseurl: ""
