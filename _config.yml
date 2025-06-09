@@ -1,6 +1,6 @@
 # @format
 
-theme: jekyll-theme-minimal
+theme: jekyll-theme-chirpy
 
 include:
   - "*.md"
