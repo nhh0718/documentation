@@ -40,10 +40,7 @@ source /home/<username>/nodevenv/<app-root>/<node-version>/bin/activate && cd /h
 
 ## 3. cài n8n qua npm
 
-```bash
-npm init -y
-npm install n8n
-```
+<pre> ```bash npm init -y npm install n8n ``` </pre>
 
 ## 4. cài đặt startup file
 
