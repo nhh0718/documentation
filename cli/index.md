@@ -84,5 +84,7 @@ cloudlinux-selector destroy --json --interpreter nodejs --app-root <app-root>
 
 ```bash
 rm -rf ~/n8n
+```
+```bash
 rm -rf ~/.n8n
 ```
