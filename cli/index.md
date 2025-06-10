@@ -41,7 +41,7 @@ source /home/<username>/nodevenv/<app-root>/<node-version>/bin/activate && cd /h
 ## 3. cài n8n qua npm
 
 ```shell
-npm init -y \n 
+npm init -y /
 npm install n8n
 ```
 
