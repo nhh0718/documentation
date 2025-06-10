@@ -5,7 +5,7 @@ categories: [Tutorial, cPanel]
 date: 2025-06-09 14:35:00 +0700
 tags: [n8n, cli]
 author: hoang
-comments: true 
+comments: true
 ---
 
 <!-- @format -->
@@ -41,7 +41,10 @@ source /home/<username>/nodevenv/<app-root>/<node-version>/bin/activate && cd /h
 ## 3. cài n8n qua npm
 
 ```shell
-npm init -y /
+npm init -y
+```
+
+```shell
 npm install n8n
 ```
 
